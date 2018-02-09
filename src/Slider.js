@@ -1,5 +1,4 @@
 import React from 'react'
-import Link from 'gatsby-link'
 import gsap from 'gsap'
 import { TransitionGroup, Transition } from 'react-transition-group'
 import BackgroundImage from './BackgroundImage.js'

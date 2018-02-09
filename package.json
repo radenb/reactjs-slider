@@ -4,18 +4,41 @@
   "version": "1.0.0",
   "author": "Braden Witherwax <ldd.17.developer@gmail.com>",
   "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-react-html-attrs": "^2.1.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
     "classnames": "^2.2.5",
+    "css-loader": "^0.28.9",
     "gsap": "^1.20.3",
+    "node-sass": "^4.7.2",
     "prettier": "^1.8.2",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
     "react-transition-group": "^2.2.1",
+    "sass-loader": "^6.0.6",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.1",
     "yarn": "^1.3.2"
   },
   "keywords": [
-    "gatsby", "slider"
+    "gatsby",
+    "slider"
   ],
   "license": "MIT",
   "main": "n/a",
-  "scripts": {},
+  "scripts": {
+    "webpack": "webpack",
+    "develop": "webpack-dev-server --open"
+  },
   "devDependencies": {
+    "extract-text-webpack-plugin": "^3.0.2",
+    "html-webpack-plugin": "^2.30.1",
+    "style-loader": "^0.20.1"
   }
 }

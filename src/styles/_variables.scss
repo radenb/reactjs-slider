@@ -1,0 +1,46 @@
+/* *****************************************
+		VARIABLES
+******************************************** */
+
+$gutter: 20px;
+
+// BREAKPOINTS
+$size__site-main: 100%;
+$size_desktop: 1200px;
+$size_tablet-large: 945px;
+$size_tablet: 1000px;
+$size_ipad:768px;
+$size_mobile-landscape: 650px;
+$size_mobile: 650px;
+$size_site-sidebar:20%;
+$menu_mobile-breakpoint:1000px;
+
+// COLORS
+$color_black-light: rgba(52, 49, 61, 0.25);
+$color_blue: #007dc4;
+$color_green: #00AE88;
+$color_brown-dark: #231f20;
+$color_grey:#7F7F7F;
+$color_grey-dark: #898b91;
+$color_black:#50545D;
+
+// NEW //
+$color_white: #FFFFFF;
+// $color_grey: #ededed;
+$color_grey-light: #ededed;
+// $color_black: #34313d;
+
+$color_grey-hover: #ededed;
+
+// FONTS
+$pFontSize:22px;
+$h3FontSize:22px;
+
+//Maison Neue - Book
+$font_main: sans-serif;
+$font_two: sans-serif;
+$font_three: sans-serif;
+$font_four: sans-serif;
+
+$ani_main: cubic-bezier(0.86, 0, 0.07, 1);
+$ani_secondary: cubic-bezier(0.25, 0.46, 0.45, 0.94);

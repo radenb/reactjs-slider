@@ -1,0 +1,34 @@
+// Rem output with px fallback
+@mixin font-size($sizeValue: 1) {
+	font-size: $sizeValue * 1vw;
+	font-size: $sizeValue * 1rem;
+}
+
+// Center block
+@mixin center-block {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+// Clearfix
+@mixin clearfix() {
+	content: "";
+	display: table;
+	clear: both;
+	table-layout: fixed;
+}
+
+// Clear after (not all clearfix need this also)
+@mixin clearfix-after() {
+	clear: both;
+}
+
+@mixin breakpoint($size) {
+	@media screen and (max-width: $size) { @content; } 
+}
+
+@mixin breakpoint-min($size) {
+	@media screen and (min-width: $size) { @content; } 
+}
+
